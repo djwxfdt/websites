@@ -1,0 +1,35 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>Websites For Programmer</title>
+        <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/public/images/icon.png" rel="SHORTCUT ICON">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header><h1>WEBSITES</h1></header>
+        </div>
+        <div class="content">
+            <div class="list">
+                {{#each list}}
+                    <div class="item">
+                        <a class="rollover" href="{{url}}" target="_blank">
+                                <img src="{{thumb}}" width="360" height="256"/>
+                        </a>
+                        <div class="box-info">
+                            <h4 class="title">{{title}}</h4>
+                            <div class="from"><span>By </span><span class="high-light">{{author}}</span></div>
+                            <div class="desc">{{desc}}</div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+        <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/public/js/index.js" ></script>
+
+    </body>
+</html>
