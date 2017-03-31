@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = new Hapi.Server();
 
-server.connection({port: 3004, host: '127.0.0.1'});
+server.connection({port: 3004, host: '0.0.0.0'});
 
 require("./src/routes.js")(server);
 
