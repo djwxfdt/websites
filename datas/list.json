@@ -22,6 +22,13 @@
             "author":"Sampson",
             "thumb":"/public/images/restful.png",
             "desc":"开始测试自己的REST API吧！O(∩_∩)O~  "
+        },{
+            "key":"fed",
+            "title":"淘宝前端团队（FED）",
+            "url":"http://taobaofed.org",
+            "author":"Sampson",
+            "thumb":"/public/images/fed.png",
+            "desc":"淘宝前端团队分享的技术文章"
         }
     ]
 }
