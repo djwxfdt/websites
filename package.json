@@ -14,10 +14,12 @@
     "vision": "^4.1.1",
     "webpack": "^2.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "pageres": "^4.4.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist":"NODE_ENV=production webpack "
+    "dist": "NODE_ENV=production webpack "
   },
   "repository": {
     "type": "git",
