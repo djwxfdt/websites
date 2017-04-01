@@ -5,7 +5,7 @@ module.exports = server => {
         method: 'GET',
         path: '/',
         handler: function(request, reply) {
-            reply.view('index',{list:require(path.join(__dirname,"..","datas/list.json")).list});
+            reply.view('index',{list:require(path.join(__dirname,"..","datas/list.js"))});
         },
         config: {
             state: {

@@ -1,6 +1,6 @@
 const Pageres = require('pageres');
 const path = require('path');
-const list = require('./datas/list.json').list;
+const list = require('./datas/list.js');
 
 const pageres = new Pageres({delay: 2})
 

@@ -4,7 +4,6 @@
             "key":"00oo00",
             "title":"00oo00",
             "desc":"upload image free",
-            "author":"Sampson",
             "thumb":"/public/images/sm.ms.png",
             "url":"https://sm.ms",
             "new":false
@@ -12,7 +11,6 @@
             "key":"base64",
             "title":"Base64 Image Encoder",
             "url":"https://www.base64-image.de",
-            "author":"Sampson",
             "thumb":"/public/images/base64-image.de.png",
             "desc":"CONVERT YOUR IMAGES TO BASE64",
             "new":false
@@ -20,7 +18,6 @@
             "key":"restful",
             "title":"REST API 测试",
             "url":"http://www.myrestful.com/index.php?s=/Single/Testcase/rest.html",
-            "author":"Sampson",
             "thumb":"/public/images/myrestful.com!index.php!s=!Single!Testcase!rest.html.png",
             "desc":"开始测试自己的REST API吧！O(∩_∩)O~  ",
             "new":false
@@ -28,7 +25,6 @@
             "key":"fed",
             "title":"淘宝前端团队（FED）",
             "url":"http://taobaofed.org",
-            "author":"Sampson",
             "thumb":"/public/images/taobaofed.org.png",
             "desc":"淘宝前端团队分享的技术文章",
             "new":false
@@ -36,10 +32,32 @@
             "key":"cloud9",
             "title":"Cloud9",
             "url":"https://c9.io",
-            "author":"Sampson",
             "thumb":"/public/images/c9.io.png",
             "desc":"Web development was never so easy",
             "new":false
+        },{
+            "key":"devdocs",
+            "title":"DevDocs",
+            "url":"http://devdocs.io",
+            "thumb":"/public/images/devdocs.io.png",
+            "desc":"各类API在线查询网站",
+            "new":false
+        },
+        {
+            "key":"uisdc",
+            "title":"设计师网址导航",
+            "url":"http://hao.uisdc.com",
+            "thumb":"/public/images/hao.uisdc.com.png",
+            "desc":"不要以为它仅仅是为设计师提供的",
+            "new":false
+        },{
+            "key":"codewars",
+            "title":"CodeWars",
+            "url":"https://www.codewars.com/",
+            "thumb":"/public/images/codewars.com.png",
+            "desc":"一个刷题网站，使用者可不断实战答题挑战",
+            "new":false
         }
+
     ]
 }
