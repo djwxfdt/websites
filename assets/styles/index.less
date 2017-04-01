@@ -28,7 +28,7 @@ html {
         }
         .content{
             display: flex;
-            margin-top: 90px;
+            margin-top: 100px;
 
             .list{
                 display: flex;
@@ -80,21 +80,39 @@ html {
                     .box-info{
                         display: flex;
                         flex-direction: column;
-                        padding: 20px;
+                        padding: 20px 20px 10px 20px;
                         background: white;
                         .title{
                             color: #202121;
                             font-weight: 500;
                             margin: 0;
+                            line-height: 24px;
                         }
                         .from{
                             .high-light{
                                 color: #42ab9e;
+
                             }
+                            line-height: 24px;
+
                         }
                     }
                 }
+
+
             }
+        }
+        @media (max-width: 768px){
+            .content{
+                .list{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    .item{
+                        width: 100%!important;
+                    }
+                }
+            }
+
         }
     }
 }

@@ -32,6 +32,14 @@
             "thumb":"/public/images/taobaofed.org.png",
             "desc":"淘宝前端团队分享的技术文章",
             "new":false
+        },{
+            "key":"cloud9",
+            "title":"Cloud9",
+            "url":"https://c9.io",
+            "author":"Sampson",
+            "thumb":"/public/images/c9.io.png",
+            "desc":"Web development was never so easy",
+            "new":false
         }
     ]
 }
