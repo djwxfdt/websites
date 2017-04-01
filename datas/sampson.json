@@ -57,7 +57,27 @@
             "thumb":"/public/images/codewars.com.png",
             "desc":"一个刷题网站，使用者可不断实战答题挑战",
             "new":false
+        },{
+            "key":"freepik",
+            "title":"Freepik",
+            "url":"http://www.freepik.com",
+            "thumb":"/public/images/freepik.com.png",
+            "desc":"Graphic resources for everyone",
+            "new":false
+        },{
+            "key":"browsershots",
+            "title":"Browsershots",
+            "url":"http://browsershots.org",
+            "thumb":"/public/images/browsershots.org.png",
+            "desc":"跨平台、多浏览器页面测试工具",
+            "new":false
+        },{
+            "key":"spritegen",
+            "title":"Spritegen",
+            "url":"http://css.spritegen.com",
+            "thumb":"/public/images/css.spritegen.com.png",
+            "desc":"Optimize your website using CSS Sprites! ",
+            "new":false
         }
-
     ]
 }
