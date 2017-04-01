@@ -1,5 +1,8 @@
 import '../styles/index.less';
 
+
+
+/** Reference http://codepen.io/soulwire/pen/Ffvlo **/
 const ROWS = 40
 const COLS = 900
 
